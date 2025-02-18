@@ -1,5 +1,5 @@
 let btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
-    console.log("Hello from JavaScript");
+    document.getElementById("output"). innerHTML="Hello from button";
 })
